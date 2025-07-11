@@ -6,20 +6,20 @@ This is a simple multi-page website built using HTML, CSS, and JavaScript. It al
 
 ## ✨ Features
 
-- 🧍 Resident login form
-- 📋 Complaint & query submission
-- 🏋️ Amenities booking (gym, pool, clubhouse)
-- ☎️ Intercom & contact directory
-- 📱 Responsive navigation bar across pages
-- 🧾 Basic form validations using JavaScript
+- Resident login form
+- Complaint & query submission
+- Amenities booking (party hall, pool, stadiums)
+- Intercom & contact directory
+- Responsive navigation bar across pages
+- Basic form validations using JavaScript
 
 ---
 
 ## 🧰 Tech Stack
 
-- ✅ HTML5 – Page structure
-- 🎨 CSS3 – Styling & layout
-- ⚙️ JavaScript – Basic interactivity (forms, navbar)
+- HTML5 – Page structure
+- CSS3 – Styling & layout
+- JavaScript – Basic interactivity (forms, navbar)
 
 ---
 
@@ -27,23 +27,22 @@ This is a simple multi-page website built using HTML, CSS, and JavaScript. It al
 
 ```bash
 apartment-resident-portal-beginner/
-├── index.html              # Home page
-├── login.html              # Resident login form
-├── amenities.html          # Booking form (SPORT)
-├── complaints.html         # Complaint submission
-├── query.html              # General queries
-├── intercom.html           # Internal contact info
-├── contacts.html           # External contact info
-├── suggestions.html        # Feedback form
+├── MAIN.html               # Home page
+├── LOGIN.html              # Resident login form
+├── SPORT.html              # Booking form (SPORT)
+├── COMPLAINTS.html         # Complaint submission
+├── QUERY.html              # General queries
+├── INTERCOM.html           # Internal contact info
+├── CONTACTS.html           # External contact info
+├── SUGGESTIONS.html        # Feedback form
 ├── css/
-│   ├── main.css
-│   ├── login.css
-│   └── sport.css
+│   ├── MAIN.css
+│   ├── LOGIN.css
+│   └── SPORT.css
 ├── js/
-│   ├── main.js
-│   ├── login.js
-│   └── form.js
+│   ├── MAIN.js
+│   ├── LOGIN.js
+│   └── SPORT.js
 ├── images/
-│   └── logo.png
 └── README.md
-
+```
