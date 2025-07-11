@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/LOGIN.css">
+    <title>Login Form Using HTML And CSS Only</title>
+</head>
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container log-in-container">
+            <form name="myform" onsubmit="return validateForm()" action="#">
+                <h1>Falguni Homes</h1>
+                <span>Sign Up</span>
+
+                <input type="text" id="name" placeholder="Your Name" required>
+
+                <input type="text" name="number" placeholder="9567xxxxxx" minlength="10" maxlength="10" required>
+                <span id="numloc" style="color: red;"></span>
+
+                <input type="email" id="mail" placeholder="Email" required>
+
+                <input type="password" placeholder="Password" id="Password" required>
+                <input type="password" placeholder="Confirm Password" id="ConfirmPassword" required>
+                <span id="wor" style="color: red;"></span>
+
+                <a href="#">Forgot your password?</a>
+
+                <button type="submit" id="submit" name="submit">Log In</button>
+                <a href="MAIN.html"><button type="button">NEXT</button></a>
+            </form>
+        </div>
+
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-right">
+                    <img src="images/apartment.jpg" height="480" width="400">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/LOGIN.js"></script>
+</body>
+</html>

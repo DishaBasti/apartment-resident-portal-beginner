@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Sport stadium availability
+    </title>
+    <link rel="stylesheet" href="css/SPORT.css">
+
+</head>
+
+<body>
+    <h3 align="center">Check availability</h3>
+    <table align="center">
+        <tr>
+            <td align="center">Sport</td>
+            <td><select id="sport">
+                    <option value="Select a game">Select a game</option>
+                    <option value="Badminton" id="sport">Badminton</option>
+                    <option value="Carrom" id="sport">Carrom</option>
+                    <option value="Swimming" id="sport">Swimming</option>
+                    <option value="Table Tennis" id="sport">TableTennis</option>
+                    <option value="Basketball" id="sport">Basketball</option>
+                    <option value="Squash" id="sport">Squash</option>
+            </td>
+            </select>
+        </tr>
+        <br>
+        <br>
+        <tr>
+            <td align="center">Date and Time</td>
+            <td><input type="date"><br><input type="time"></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="button" value="Check" onclick="display()">
+            </td>
+        </tr>
+    </table>
+    <script src="js/SPORT.js"></script>
+</body>
+
+</html>
