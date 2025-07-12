@@ -71,7 +71,7 @@ This project is perfect for:
 ## 🌐 Live Demo
 You can host this project using:
 - GitHub Pages
-Live URL: Coming soon or paste your deployed link here
+Live URL: Coming soon
 
 ## 🔧 Future Improvements
 -Add backend integration (e.g., Firebase, PHP, Node.js)
